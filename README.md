@@ -108,3 +108,13 @@ issued and checking continues.
 Acknowledgements are due to Norm Megill, creator of the Metamath language and software
 ecosystem.
 And to Eric Schmidt who wrote `checkmm.cpp` which served as a basis for this package.
+
+## License
+
+The Metamath.jl package is licensed under
+the [Creative Commons Zero v1.0 Universal License](LICENSE.md):
+
+```julia
+# SPDX-License-Identifier: CC0-1.0
+# Copyright (c) 2016: Dan Getz.
+```
