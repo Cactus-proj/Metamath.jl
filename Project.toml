@@ -1,7 +1,7 @@
 name = "Metamath"
 uuid = "9e54f9b3-c8d7-44cf-85bf-66f3b9c8d440"
 authors = ["getzdan"]
-version = "0.1.0"
+version = "0.5.0-DEV"
 
 [deps]
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
