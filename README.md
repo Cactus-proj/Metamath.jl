@@ -1,8 +1,9 @@
 # Metamath.jl
 
-[![Build Status](https://travis-ci.org/getzdan/Metamath.jl.svg?branch=master)](https://travis-ci.org/getzdan/Metamath.jl)
-[![Build status](https://ci.appveyor.com/api/projects/status/86f1o182nfeb1yyg?svg=true)](https://ci.appveyor.com/project/getzdan/metamath-jl)
-[![Coverage Status](https://coveralls.io/repos/github/getzdan/Metamath.jl/badge.svg?branch=master)](https://coveralls.io/github/getzdan/Metamath.jl?branch=master)
+<!-- [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://Cactus-proj.github.io/Metamath.jl/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://Cactus-proj.github.io/Metamath.jl/dev/) -->
+[![Build Status](https://github.com/Cactus-proj/Metamath.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/Cactus-proj/Metamath.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/Cactus-proj/Metamath.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/Cactus-proj/Metamath.jl)
 
 This package provides a standalone verifier for Metamath database files.
 
@@ -20,7 +21,7 @@ Pkg.add("Metamath")
 
 or (while the package is not in the official METADATA):
 ```julia
-Pkg.clone("git://github.com/getzdan/Metamath.jl")
+Pkg.clone("git://github.com/Cactus-proj/Metamath.jl")
 ```
 
 ## Usage
