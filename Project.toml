@@ -8,3 +8,6 @@ Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
 
 [compat]
 julia = "1.6"
+
+[targets]
+test = ["Test"]
