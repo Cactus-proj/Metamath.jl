@@ -1,4 +1,3 @@
-__precompile__()
 module Metamath
 
 using Mmap
