@@ -8,10 +8,11 @@ export mmverify!
 struct MetamathException <: Exception
   text::AbstractString
 end
-metamath_error(x...) = throw(MetamathException(string(x...)))
-metamath_warn(x...) = warn("(Metamath) ",x...)
-macro warn_and_ret(rv,x...)
-  :(metamath_warn($x...) ; return $rv)
+
+metamath_error(s::AbstractString) = throw(MetamathException(s))
+metamath_warn(s::AbstractString) = @warn("(Metamath) $s")
+macro warn_and_ret(rv, s)
+  :(metamath_warn($s) ; return $rv)
 end
 
 const Expression = Vector{Symbol}
